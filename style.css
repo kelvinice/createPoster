@@ -1,0 +1,62 @@
+@font-face {
+    font-family: divergent;
+    src: url(DIVERGENT.ttf);
+  }
+
+.image{
+    background-image: url('kosong.png');
+    width: 614px;
+    height: 874px;
+    position: absolute;
+}
+
+.over{
+    position: absolute;
+    z-index: 10;
+    color: white;
+}
+
+.parents{
+    position: relative;
+    width: 614px;
+    height: 874px;
+}
+
+.nama{
+    top: 215px;
+    font-family: divergent;
+    font-size: 50.1px;
+    right: 40px;
+    /* color: rgb(207, 207, 207); */
+    
+    /* background: linear-gradient(to right, rgb(100, 100, 100),white,rgb(100, 100, 100));  */
+    text-transform: uppercase;
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    
+    font-stretch: expanded;
+    transform: scale(1, 1);
+    font-style: normal;
+    letter-spacing: 10px;
+}
+
+.nomor{
+    top: 292px;
+    font-family: 'Century Gothic';
+    font-size: 30px;
+    right: 45px;
+    color: white;
+    font-stretch: expanded;
+    transform: scale(1.0, 1.0);
+    letter-spacing: 10px;
+}
+
+.job{
+    top: 390px;
+    font-family: 'Century Gothic';
+    font-size: 25px;
+    left: 21px;
+    color: white;
+    font-stretch: expanded;
+    transform: scale(1.0, 1.0);
+}
